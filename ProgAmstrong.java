@@ -15,7 +15,8 @@ public class ProgAmstrong {
 	
 		while(num>0) {
 			int rem=num%10;
-			 ams=ams+Math.pow(rem,3);
+			 //ams=ams+Math.pow(rem,3);
+			 ams=ams+(rem*rem*rem);
 			 num=num/10;
 		}
 		if(n==ams) {
